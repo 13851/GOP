@@ -1,0 +1,12 @@
+
+import random
+print("welcome to goal or pooch")
+print("please enter your move")
+print("""right =====> 1
+left =====> 0""")
+A = int(input("enter your move with the defined numbers"))
+x = random.randint(0,1)
+if A == x:
+    print("you are our winner !!!")
+else:
+    print("lose !!!")
